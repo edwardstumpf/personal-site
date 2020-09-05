@@ -1,0 +1,78 @@
+/* Fonts: Open Sans and Merriweather */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,900;1,400&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: #2079c7;
+}
+
+a:hover, a:focus {
+    color: #103c63;
+}
+
+/* Element classes */
+.resume {
+    color: #666666;
+    font-family: 'Merriweather', serif;
+    font-size: 0.9rem;
+}
+
+.resume__subtitle {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+}
+
+.resume__section-header {
+    color: #2079c7;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.resume__title {
+    color: #000;
+    font-size: 1.1rem;
+}
+
+.resume__skills-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.resume__skills-list li {
+    margin: 0.35rem 0;
+}
+
+.resume__dates {
+    font-size: 0.8rem;
+    margin: 0 0 0.5rem;
+    text-transform: uppercase;
+}
+
+.icon-link:hover, .icon-link:focus {
+    text-decoration: none;
+}
+
+.icon-link__icon {
+    font-size: 2.75rem;
+}
+
+.icon-link__icon:hover, .icon-link__icon:focus {
+    box-shadow: 0 0 2px rgba(16,60,99,1);
+}
+
+/* Utility classes */
+.u-bg-mariner-blue {
+    background-color: #2079c7;
+}
+
+.u-text-large {
+    font-size: 1.25rem;
+}
