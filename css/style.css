@@ -34,6 +34,8 @@ a:hover, a:focus {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.9rem;
     text-transform: uppercase;
+    margin: 0.5rem 0;
+
 }
 
 .resume__title {
@@ -48,6 +50,21 @@ a:hover, a:focus {
 
 .resume__skills-list li {
     margin: 0.35rem 0;
+}
+
+/* Re-format the skills list to a comma separated string */
+@media (max-width: 575px) {
+    .resume__skills-list {
+        display: inline;
+    }
+    
+    .resume__skills-list li {
+        display: inline;
+    }
+
+    .resume__skills-list li:not(:last-child):after {
+        content: ", ";
+    }
 }
 
 .resume__dates {
